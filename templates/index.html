@@ -1,0 +1,16 @@
+{% extends 'layout.html' %}
+{% block title %}Mood Music - Home{% endblock %}
+{% block content %}
+  <div class="hero-section home-hero">
+    <h1>🎧 Mood Music</h1>
+    <p class="lead">Unlock the perfect playlist for your emotions. Snap a photo, detect your mood, and let AI curate tunes that resonate.</p>
+    <div class="camera-container">
+      <video id="camera" autoplay playsinline width="480" height="360" aria-label="Webcam feed"></video>
+      <div class="controls">
+        <button id="capture" class="button primary">Detect My Mood</button>
+        <button id="quick-log" class="button secondary">Quick Mood Log</button>
+      </div>
+    </div>
+    <div id="result" class="result-container"></div>
+  </div>
+{% endblock %}

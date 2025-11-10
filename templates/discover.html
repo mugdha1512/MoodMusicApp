@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+{% block title %}Discover Moods{% endblock %}
+{% block content %}
+  <div class="discover-section">
+    <h1>Explore All Moods</h1>
+    <p class="lead">Browse songs by emotion without the camera—perfect for quick inspiration.</p>
+    <div class="moods-grid">
+      {% for mood, song_list in songs.items() %}
+        <div class="mood-card" style="border-left-color: var(--color-{{ mood }});">
+          <h3>{{ mood.title() }} Vibes</h3>
+          <ul class="song-list">
+            {% for song in song_list[:3] %}
+              <li><a href="{{ song.url }}" target="_blank">{{ song.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <a href="{{ url_for('discover_mood', mood=mood) }}" class="button secondary">View All ({{ song_list|length }})</a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+{% endblock %}

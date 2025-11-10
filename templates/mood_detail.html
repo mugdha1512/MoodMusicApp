@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% block title %}{{ mood.title() }} Songs{% endblock %}
+{% block content %}
+  <div class="mood-detail-section" style="background-color: var(--color-{{ mood }}); color: white; padding: 2rem; border-radius: 15px; margin: 1rem 0;">
+    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+      <h1>{{ mood.title() }} Playlist 🎵</h1>
+      <a href="{{ url_for('discover') }}" class="button secondary">← Back to Moods</a>
+    </div>
+    <p class="lead">Dive into {{ song_list|length }} tracks handpicked to match your {{ mood }} mood. Click to play!</p>
+    <ul class="full-song-list">
+      {% for song in songs %}
+        <li class="song-item">
+          <a href="{{ song.url }}" target="_blank" class="song-link full">{{ song.title }}</a>
+          <span class="play-icon">▶️</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}

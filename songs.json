@@ -1,0 +1,44 @@
+{
+  "happy": [
+    { "title": "Happy - Pharrell Williams", "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs" },
+    { "title": "Can't Stop The Feeling - Justin Timberlake", "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw" },
+    { "title": "Good Vibrations - The Beach Boys", "url": "https://www.youtube.com/watch?v=apBWI6xrbLY" },
+    { "title": "Walking on Sunshine - Katrina & The Waves", "url": "https://www.youtube.com/watch?v=iPUmE-tne5U" }
+  ],
+  "sad": [
+    { "title": "Someone Like You - Adele", "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0" },
+    { "title": "Fix You - Coldplay", "url": "https://www.youtube.com/watch?v=k4V3Mo61fJM" },
+    { "title": "Hallelujah - Leonard Cohen", "url": "https://www.youtube.com/watch?v=YrLk4vdY28Q" },
+    { "title": "Everybody Hurts - R.E.M.", "url": "https://www.youtube.com/watch?v=dVg5Qb7d0A8" }
+  ],
+  "angry": [
+    { "title": "Break Stuff - Limp Bizkit", "url": "https://www.youtube.com/watch?v=ZpUYjpKg9KY" },
+    { "title": "Killing In The Name - Rage Against The Machine", "url": "https://www.youtube.com/watch?v=bWXazVhlyxQ" },
+    { "title": "Chop Suey! - System of a Down", "url": "https://www.youtube.com/watch?v=CSvFpBoSQaU" },
+    { "title": "Smells Like Teen Spirit - Nirvana", "url": "https://www.youtube.com/watch?v=hTWKbfoikeg" }
+  ],
+  "surprise": [
+    { "title": "Wake Me Up - Avicii", "url": "https://www.youtube.com/watch?v=IcrbM1l_BoI" },
+    { "title": "Uptown Funk - Bruno Mars", "url": "https://www.youtube.com/watch?v=OPf0YbXqDm0" },
+    { "title": "Feel It Still - Portugal. The Man", "url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0" },
+    { "title": "Shut Up and Dance - Walk the Moon", "url": "https://www.youtube.com/watch?v=6JcbHs_6A3Y" }
+  ],
+  "fear": [
+    { "title": "The Sound of Silence - Disturbed", "url": "https://www.youtube.com/watch?v=u7K72X4eo_s" },
+    { "title": "Hurt - Johnny Cash", "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI" },
+    { "title": "Demons - Imagine Dragons", "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8" },
+    { "title": "Believer - Imagine Dragons", "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc" }
+  ],
+  "disgust": [
+    { "title": "Boulevard of Broken Dreams - Green Day", "url": "https://www.youtube.com/watch?v=0-Gb54wvL9s" },
+    { "title": "Numb - Linkin Park", "url": "https://www.youtube.com/watch?v=kXYiU_JCYtU" },
+    { "title": "In the End - Linkin Park", "url": "https://www.youtube.com/watch?v=eVTXPUF4Of8" },
+    { "title": "Chandelier - Sia", "url": "https://www.youtube.com/watch?v=2vjPBrBU-TM" }
+  ],
+  "neutral": [
+    { "title": "Let Her Go - Passenger", "url": "https://www.youtube.com/watch?v=RBumgq5yVrA" },
+    { "title": "Counting Stars - OneRepublic", "url": "https://www.youtube.com/watch?v=hT_nvWreIhg" },
+    { "title": "Ho Hey - The Lumineers", "url": "https://www.youtube.com/watch?v=zvCBSSwgtg4" },
+    { "title": "Riptide - Vance Joy", "url": "https://www.youtube.com/watch?v=SwYN7mTi6jE" }
+  ]
+}

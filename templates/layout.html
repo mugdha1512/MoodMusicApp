@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% block title %}Mood Music App{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="{{ url_for('home') }}" class="nav-logo">🎧 Mood Music</a>
+      <ul class="nav-links">
+        <li><a href="{{ url_for('home') }}">Home</a></li>
+        <li><a href="{{ url_for('about') }}">About</a></li>
+        <li><a href="{{ url_for('discover') }}">Discover</a></li>
+        <li><a href="{{ url_for('profile') }}">Profile</a></li>
+        <li><a href="{{ url_for('contact') }}">Contact</a></li>
+        {% if session.get('username') %}
+          <li><a href="{{ url_for('signout') }}">Sign Out ({{ session.username }})</a></li>
+        {% else %}
+          <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+          <li><a href="{{ url_for('signin') }}">Sign In</a></li>
+        {% endif %}
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-wrap">
+    <div class="centered-container">
+      {% block content %}{% endblock %}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    &copy; {{ now.strftime('%Y') }} Mood Music App — Designed with ❤️ by <a href="https://github.com/mugdha1512" target="_blank">Mugdha Patil</a> | Powered by AI & Music
+  </footer>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,416 @@
+{
+  "mugdha": {
+    "email": "m1@gmai.com",
+    "password": "12345",
+    "mood_history": [
+      {
+        "emotion": "sad",
+        "songs": [
+          {
+            "title": "Someone Like You - Adele",
+            "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+          },
+          {
+            "title": "Fix You - Coldplay",
+            "url": "https://www.youtube.com/watch?v=k4V3Mo61fJM"
+          },
+          {
+            "title": "Hallelujah - Leonard Cohen",
+            "url": "https://www.youtube.com/watch?v=YrLk4vdY28Q"
+          },
+          {
+            "title": "Everybody Hurts - R.E.M.",
+            "url": "https://www.youtube.com/watch?v=dVg5Qb7d0A8"
+          }
+        ],
+        "feedback": "Good",
+        "comment": "Nice",
+        "rating": 0
+      },
+      {
+        "emotion": "neutral",
+        "songs": [
+          {
+            "title": "Let Her Go - Passenger",
+            "url": "https://www.youtube.com/watch?v=RBumgq5yVrA"
+          },
+          {
+            "title": "Counting Stars - OneRepublic",
+            "url": "https://www.youtube.com/watch?v=hT_nvWreIhg"
+          },
+          {
+            "title": "Ho Hey - The Lumineers",
+            "url": "https://www.youtube.com/watch?v=zvCBSSwgtg4"
+          },
+          {
+            "title": "Riptide - Vance Joy",
+            "url": "https://www.youtube.com/watch?v=SwYN7mTi6jE"
+          }
+        ],
+        "feedback": "Good",
+        "comment": "I enjoyed alot.",
+        "rating": 0
+      },
+      {
+        "emotion": "happy",
+        "songs": [
+          {
+            "title": "Happy - Pharrell Williams",
+            "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
+          },
+          {
+            "title": "Can't Stop The Feeling - Justin Timberlake",
+            "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw"
+          },
+          {
+            "title": "Good Vibrations - The Beach Boys",
+            "url": "https://www.youtube.com/watch?v=apBWI6xrbLY"
+          },
+          {
+            "title": "Walking on Sunshine - Katrina & The Waves",
+            "url": "https://www.youtube.com/watch?v=iPUmE-tne5U"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "angry",
+        "songs": [
+          {
+            "title": "Break Stuff - Limp Bizkit",
+            "url": "https://www.youtube.com/watch?v=ZpUYjpKg9KY"
+          },
+          {
+            "title": "Killing In The Name - Rage Against The Machine",
+            "url": "https://www.youtube.com/watch?v=bWXazVhlyxQ"
+          },
+          {
+            "title": "Chop Suey! - System of a Down",
+            "url": "https://www.youtube.com/watch?v=CSvFpBoSQaU"
+          },
+          {
+            "title": "Smells Like Teen Spirit - Nirvana",
+            "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+          }
+        ],
+        "feedback": "Average",
+        "comment": "Some Updatation needed in your Application",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "surprise",
+        "songs": [
+          {
+            "title": "Wake Me Up - Avicii",
+            "url": "https://www.youtube.com/watch?v=IcrbM1l_BoI"
+          },
+          {
+            "title": "Uptown Funk - Bruno Mars",
+            "url": "https://www.youtube.com/watch?v=OPf0YbXqDm0"
+          },
+          {
+            "title": "Feel It Still - Portugal. The Man",
+            "url": "https://www.youtube.com/watch?v=pRpeEdMmmQ0"
+          },
+          {
+            "title": "Shut Up and Dance - Walk the Moon",
+            "url": "https://www.youtube.com/watch?v=6JcbHs_6A3Y"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "happy",
+        "songs": [
+          {
+            "title": "Happy - Pharrell Williams",
+            "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
+          },
+          {
+            "title": "Can't Stop The Feeling - Justin Timberlake",
+            "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw"
+          },
+          {
+            "title": "Good Vibrations - The Beach Boys",
+            "url": "https://www.youtube.com/watch?v=apBWI6xrbLY"
+          },
+          {
+            "title": "Walking on Sunshine - Katrina & The Waves",
+            "url": "https://www.youtube.com/watch?v=iPUmE-tne5U"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "sad",
+        "songs": [
+          {
+            "title": "Someone Like You - Adele",
+            "url": "https://www.youtube.com/watch?v=hLQl3WQQoQ0"
+          },
+          {
+            "title": "Fix You - Coldplay",
+            "url": "https://www.youtube.com/watch?v=k4V3Mo61fJM"
+          },
+          {
+            "title": "Hallelujah - Leonard Cohen",
+            "url": "https://www.youtube.com/watch?v=YrLk4vdY28Q"
+          },
+          {
+            "title": "Everybody Hurts - R.E.M.",
+            "url": "https://www.youtube.com/watch?v=dVg5Qb7d0A8"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "angry",
+        "songs": [
+          {
+            "title": "Break Stuff - Limp Bizkit",
+            "url": "https://www.youtube.com/watch?v=ZpUYjpKg9KY"
+          },
+          {
+            "title": "Killing In The Name - Rage Against The Machine",
+            "url": "https://www.youtube.com/watch?v=bWXazVhlyxQ"
+          },
+          {
+            "title": "Chop Suey! - System of a Down",
+            "url": "https://www.youtube.com/watch?v=CSvFpBoSQaU"
+          },
+          {
+            "title": "Smells Like Teen Spirit - Nirvana",
+            "url": "https://www.youtube.com/watch?v=hTWKbfoikeg"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "happy",
+        "songs": [
+          {
+            "title": "Happy - Pharrell Williams",
+            "url": "https://www.youtube.com/watch?v=ZbZSe6N_BXs"
+          },
+          {
+            "title": "Can't Stop The Feeling - Justin Timberlake",
+            "url": "https://www.youtube.com/watch?v=ru0K8uYEZWw"
+          },
+          {
+            "title": "Good Vibrations - The Beach Boys",
+            "url": "https://www.youtube.com/watch?v=apBWI6xrbLY"
+          },
+          {
+            "title": "Walking on Sunshine - Katrina & The Waves",
+            "url": "https://www.youtube.com/watch?v=iPUmE-tne5U"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      },
+      {
+        "emotion": "fear",
+        "songs": [
+          {
+            "title": "The Sound of Silence - Disturbed",
+            "url": "https://www.youtube.com/watch?v=u7K72X4eo_s"
+          },
+          {
+            "title": "Hurt - Johnny Cash",
+            "url": "https://www.youtube.com/watch?v=8AHCfZTRGiI"
+          },
+          {
+            "title": "Demons - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=mWRsgZuwf_8"
+          },
+          {
+            "title": "Believer - Imagine Dragons",
+            "url": "https://www.youtube.com/watch?v=7wtfhZwyrcc"
+          }
+        ],
+        "feedback": null,
+        "comment": "",
+        "rating": 0
+      }
+    ]
+  }
+}

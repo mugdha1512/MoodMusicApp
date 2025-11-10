@@ -1,0 +1,20 @@
+{% extends 'layout.html' %}
+{% block title %}Contact Us{% endblock %}
+{% block content %}
+  <div class="contact-section">
+    <h1>Get in Touch</h1>
+    <p class="lead">Have feedback or song suggestions? We'd love to hear from you!</p>
+    <form method="post" class="contact-form">
+      <input type="text" name="name" placeholder="Your name" required aria-label="Name">
+      <input type="email" name="email" placeholder="Your email" required aria-label="Email">
+      <textarea name="message" rows="5" placeholder="Your message" required aria-label="Message"></textarea>
+      <button type="submit" class="button primary">Send Message</button>
+    </form>
+    {% if success %}
+      <div class="success-message">{{ success }} 🎉</div>
+    {% endif %}
+    {% if error %}
+      <div class="error-message">{{ error }} ❌</div>
+    {% endif %}
+  </div>
+{% endblock %}

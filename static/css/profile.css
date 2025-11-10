@@ -1,0 +1,128 @@
+/* profile.css - only for Profile page */
+body.profile-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+body.profile-page h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #4A90E2;
+}
+
+body.profile-page .history-list {
+  list-style: none;
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+body.profile-page .history-item {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-left: 6px solid #4A90E2;
+}
+
+body.profile-page .history-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+body.profile-page .mood-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+body.profile-page .rating-stars {
+  font-size: 1.3rem;
+  color: #facc15;
+}
+
+body.profile-page .songs-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+body.profile-page .song-link {
+  background: #eef2ff;
+  color: #50E3C2;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+body.profile-page .song-link:hover {
+  background: #50E3C2;
+  color: white;
+}
+
+body.profile-page .feedback-summary {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  font-style: italic;
+}
+
+body.profile-page .button.secondary {
+  background: #eef2ff;
+  color: #50E3C2;
+  border: 1px solid #50E3C2;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+body.profile-page .button.secondary:hover {
+  background: #50E3C2;
+  color: white;
+}
+
+body.profile-page .empty-state {
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 2rem;
+  background: white;
+  border-radius: 15px;
+  color: #666;
+}
+
+@keyframes profileFadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+body.profile-page .history-item {
+  animation: profileFadeInUp 0.6s ease;
+}
+
+@media (max-width: 600px) {
+  body.profile-page .history-item {
+    padding: 1rem;
+  }
+  body.profile-page h3 {
+    font-size: 1.5rem;
+  }
+  body.profile-page .song-link {
+    margin-bottom: 6px;
+  }
+}

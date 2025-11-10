@@ -1,0 +1,26 @@
+{% extends 'layout.html' %}
+{% block title %}Feedback{% endblock %}
+
+{% block content %}
+<div class="feedback-container">
+  <h2>Feedback for {{ mood_entry.emotion|title }} Mood</h2>
+  <form method="post" class="feedback-form">
+    <label>Rating:</label>
+    <div class="stars">
+      {% for i in range(1, 6) %}
+        <input type="radio" id="star{{ i }}" name="rating" value="{{ i }}" {% if mood_entry.rating == i %}checked{% endif %}>
+        <label for="star{{ i }}">★</label>
+      {% endfor %}
+    </div>
+    <label>Overall Feedback:</label>
+    <select name="feedback" required>
+      <option value="Good" {% if mood_entry.feedback == 'Good' %}selected{% endif %}>Good</option>
+      <option value="Average" {% if mood_entry.feedback == 'Average' %}selected{% endif %}>Average</option>
+      <option value="Bad" {% if mood_entry.feedback == 'Bad' %}selected{% endif %}>Bad</option>
+    </select>
+    <label>Comment:</label>
+    <textarea name="comment" placeholder="Share your thoughts on the recommendations..." rows="4">{{ mood_entry.comment }}</textarea>
+    <button type="submit" class="button primary">Submit Feedback</button>
+  </form>
+</div>
+{% endblock %}

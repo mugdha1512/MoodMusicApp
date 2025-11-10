@@ -1,0 +1,44 @@
+{% extends 'layout.html' %}
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+<body class="profile-page">
+  <div class="profile-section">
+    <h3>Mood History</h3>
+    
+    {% if mood_history %}
+      <ul class="history-list">
+        {% for entry in mood_history %}
+          <li class="history-item">
+            <div class="mood-header">
+              <strong>{{ entry.emotion|title }}</strong>
+              <span class="rating-stars">
+                {% for _ in range(entry.rating) %}★{% endfor %}
+                {% for _ in range(5 - entry.rating) %}☆{% endfor %}
+              </span>
+            </div>
+
+            <div class="songs-preview">
+              {% for s in entry.songs[:2] %}
+                <a href="{{ s.url }}" target="_blank" class="song-link">{{ s.title }}</a>
+              {% endfor %}
+            </div>
+
+            {% if entry.feedback %}
+              <div class="feedback-summary">
+                <em>Feedback: {{ entry.feedback }} | {{ entry.comment }}</em>
+              </div>
+            {% else %}
+              <a href="{{ url_for('feedback', index=loop.index0) }}" class="button secondary">Add Feedback</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="empty-state">
+        No moods logged yet. Head to Home and detect one to start your journey! 🚀
+      </p>
+    {% endif %}
+  </div>
+</body>
+{% endblock %}
